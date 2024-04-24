@@ -286,3 +286,4 @@ C:\Users\Usuario\Desktop\Jota\Mas\CasaFerndandez\CasaFerndandez\obj\Debug\net8.0
 C:\Users\Usuario\Desktop\Jota\Mas\CasaFerndandez\CasaFerndandez\obj\Debug\net8.0\CasaFerndandez.pdb
 C:\Users\Usuario\Desktop\Jota\Mas\CasaFerndandez\CasaFerndandez\obj\Debug\net8.0\CasaFerndandez.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\Jota\Mas\CasaFerndandez\CasaFerndandez\obj\Debug\net8.0\ref\CasaFerndandez.dll
+C:\Users\Usuario\Desktop\Jota\Mas\CasaFerndandez\CasaFerndandez\obj\Debug\net8.0\CasaFerndandez.sourcelink.json

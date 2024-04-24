@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CasaFerndandez")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+add05e7143f2e77a55303b552d36af33ac597555")]
 [assembly: System.Reflection.AssemblyProductAttribute("CasaFerndandez")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CasaFerndandez")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

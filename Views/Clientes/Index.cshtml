@@ -1,0 +1,59 @@
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Clientes</h1>
+</div>
+
+<!-- Button trigger modal -->
+<div class="mb-2">
+    <button type="button" onclick="ListadoClientes()" class="btn btn-primary">
+        Refrescar datos
+    </button>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Agregar datos
+    </button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Agregar cliente</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="nombreCliente" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="apellidoCliente" placeholder="Apellido" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" onclick="GuardarCliente()">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<table class="table table-light table-bordered table-striped table-condensed">
+    <thead>
+        <tr>
+            <th>Nombre</th>    
+            <th>Apellido</th>  
+            <th style="width: 70px"></th>
+            <th style="width: 70px"></th>
+        </tr>
+    </thead>
+    <tbody id="tbody-clientes">
+    </tbody>
+</table>
+
+@section Scripts{
+  <script src="~/js/clientes-1.0.0.js"></script>
+}

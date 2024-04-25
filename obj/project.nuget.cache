@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wc9xtBvm5smAQX1TptpL6LxzyvFa839ezYnHofwJazKpTnibxMumQ742VYzqQPdcUOExavydeSU4CpMYKbzSIg==",
+  "dgSpecHash": "4j2LAVhC5RLBDZLsCOlF01X0GYZEuU5s5g7HMNTdHEi/Kf60gWPb9Gx5QTI4GM7pRcA+GFg/u7yqQNQmUu5pRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Jota\\Mas\\CasaFerndandez\\CasaFerndandez\\CasaFerndandez.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Mis cosas\\Tec. Desarrollo de Software 3\\Programacion III\\Poyectos\\CasaFernandez\\CasaFernandez\\CasaFerndandez.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

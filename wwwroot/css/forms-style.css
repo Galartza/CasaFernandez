@@ -237,7 +237,7 @@ input:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffff;
+    color: #e09f3e;
 }
 
 /* --- container logo de form lado derecho --- */
@@ -269,7 +269,7 @@ input:hover {
     .main-content-forms {
         position: absolute;
         width: 100%;
-        height: 100vh;
+        height: 60rem;
         left: 0;
         background-image: url(../img/vagila-form.jpg);
         background-position: center;
@@ -278,7 +278,7 @@ input:hover {
     }
 
     .container-form {
-        height: 50vh;
+        height: 45rem;
         background-color: #ffff;
         position: relative;
     }
@@ -320,4 +320,7 @@ input:hover {
     .container-img {
         display: none;
     }
+}
+@media (max-width: 768px) {
+
 }

@@ -12,21 +12,22 @@
         Refrescar datos
     </button>
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Agregar datos
+    <button type="button" onclick="NuevoRegistroCliente()" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalCliente">
+        Agregar cliente
     </button>
 </div>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="ModalCliente" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Agregar cliente</h5>
+                <h5 class="modal-title" id="ModalTitulo"></h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <div class="input-group mb-3">
+                <input type="hidden" id="clienteID" value="0"/>
                     <input type="text" class="form-control" id="nombreCliente" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
                 <div class="input-group">
@@ -34,7 +35,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-secondary" onclick="LimpiarModal()" data-bs-dismiss="modal">Cancelar</button>
                 <button type="button" class="btn btn-primary" onclick="GuardarCliente()">Guardar</button>
             </div>
         </div>
